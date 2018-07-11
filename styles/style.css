@@ -16,7 +16,7 @@ h1{
   position:fixed;
   width:100%;
   top:0;
-  padding:2%;
+  /*padding:2%;*/
 }
 
 div{
@@ -25,42 +25,90 @@ div{
   width:25%;
  
 }
-.team1,
-.team3{
+.johnthan,
+.josh{
   position:absolute;
   left:15%;
 }
-.team2,
-.team4{
+.keala,
+.sean{
   position:absolute;
   right:15%;
 }
-.team1{
-  color:mintCream;
-  background-color:navy;
+.johnthan{
+  color:black;
+  background-color:yellow;
   top:20%;
   
 }
-.team2{
-  color:#9ac4f8;
-  background-color:#9a275a;
+.keala{
+  color:pink;
+  background-color:limegreen;
     top:20%;
 }
-.team3{
+.josh{
   color:orange;
-  background-color:aquamarine;
+  background-color:blue;
   top:65%;
 }
-.team4{
-  color:#26413z;
-  background-color:#A7D374;
+.sean{
+  color:purple;
+  background-color:orange;
   top:65%;
 }
-.hq{
+.moto{
   color:#efeaea;
   background-color:#820d28;
   position:absolute;
   z-index:1;
   top:40%;
   left:37%;
+}
+.container{
+  position:relative; 
+  width: 100%;
+  margin:0 auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:rgba(0,55,73,.7);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.heros{
+  width: 100%;
+  
+}
+.text2 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
