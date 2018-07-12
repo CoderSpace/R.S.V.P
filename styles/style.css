@@ -1,73 +1,23 @@
-/* *{
-  border:solid red .05em;
-/*   position:abslute;
-/*   display:inline; */
-body{
-  width:100%;
-  height:100%;
-  margin:0;
-}
+@import url('https://fonts.googleapis.com/css?family=Galada');
 
-h1{
-  margin:0;
-  text-align:center;
-  background-color:#333;
-  color:white;
-  position:fixed;
-  width:100%;
-  top:0;
-  /*padding:2%;*/
-}
-
-div{
-  text-align:center;
-  border:solid;
-  width:25%;
- 
-}
-.johnthan,
-.josh{
-  position:absolute;
-  left:15%;
-}
-.keala,
-.sean{
-  position:absolute;
-  right:15%;
-}
-.johnthan{
-  color:black;
-  background-color:yellow;
-  top:20%;
-  
-}
-.keala{
-  color:pink;
-  background-color:limegreen;
-    top:20%;
-}
-.josh{
-  color:orange;
-  background-color:blue;
-  top:65%;
-}
-.sean{
-  color:purple;
-  background-color:orange;
-  top:65%;
-}
-.moto{
-  color:#efeaea;
-  background-color:#820d28;
-  position:absolute;
-  z-index:1;
-  top:40%;
-  left:37%;
-}
-.container{
-  position:relative; 
+h1 {
+  margin: 0;
+  text-align: center;
+  background-color: #333;
+  color: aquamarine;
+  position: fixed;
   width: 100%;
-  margin:0 auto;
+  top: 0;
+  padding: 2%;
+  font-size:3em;
+  font-family: 'Galada', cursive;
+}
+
+
+.container .about {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .overlay {
@@ -75,7 +25,7 @@ div{
   bottom: 0;
   left: 0;
   right: 0;
-  background-color:rgba(0,55,73,.7);
+  background-color: rgba(0, 55, 73, .7);
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -87,7 +37,7 @@ div{
 }
 
 .text {
-  white-space: nowrap; 
+  white-space: nowrap;
   color: white;
   font-size: 20px;
   position: absolute;
@@ -97,12 +47,14 @@ div{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-.heros{
+
+.heros {
   width: 100%;
-  
+
 }
+
 .text2 {
-  white-space: nowrap; 
+  white-space: nowrap;
   color: white;
   font-size: 20px;
   position: absolute;
@@ -112,3 +64,76 @@ div{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+.homepage {}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url("../images/tigerboi.jpg") ;
+  background-size:cover;
+}
+
+
+div {
+  text-align: left;
+  border: solid;
+  width: 25%;
+  font-size: 1.8em;
+  font-family: 'Galada', cursive;
+}
+
+.johnthan,
+.josh {
+  position: absolute;
+  left: 15%;
+  text-align: center;
+}
+
+.keala,
+.sean {
+  position: absolute;
+  right: 15%;
+  text-align: center;
+}
+
+.johnthan {
+  color: aquamarine;
+  background-color: black;
+  top: 20%;
+
+}
+
+.keala {
+  color: aquamarine;
+  background-color: black;
+  top: 20%;
+}
+
+.josh {
+  color: aquamarine;
+  background-color: black;
+  top: 65%;
+}
+
+.sean {
+  color: aquamarine;
+  background-color: black;
+  top: 65%;
+}
+
+.moto {
+  color: #efeaea;
+  background-color: #820d28;
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  left: 37%;
+}
+
