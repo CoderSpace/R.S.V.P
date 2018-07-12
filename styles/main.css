@@ -1,10 +1,70 @@
-@import url('https://fonts.googleapis.com/css?family=Shrikhand');
-.home {
-  position: relative;
-  height: 100%;
-  width: 100;
-  margin: 0;
-  background: url("https://media.giphy.com/media/BtLZNZ5OLqB3i/giphy.gif")no-repeat fixed;
-  font-family: 'Shrikhand', cursive;
-  background-size: cover;
+@import url('https://fonts.googleapis.com/css?family=Galada');
+body{
+  width:100%;
+  height:100%;
+  margin:0;
+  font-family: 'Galada', cursive;
+  font-size: 1.6em;
+  background-color:black;
 }
+
+h1{
+  margin:0;
+  text-align:center;
+  background-color:#333;
+  color:white;
+  position:fixed;
+  width:100%;
+  top:0;
+  /*padding:2%;*/
+}
+
+div{
+  text-align:center;
+  border:solid;
+  width:25%;
+  border-color:blue;
+ 
+}
+.johnthan,
+.josh{
+  position:absolute;
+  left:15%;
+}
+.keala,
+.sean{
+  position:absolute;
+  right:15%;
+}
+.johnthan{
+  color:black;
+  background-color:yellow;
+  top:20%;
+  
+}
+.keala{
+  color:pink;
+  background-color:limegreen;
+    top:20%;
+}
+.josh{
+  color:yellow;
+  background-color:darkblue;
+  top:65%;
+}
+.sean{
+  color:purple;
+  background-color:orange;
+  top:65%;
+}
+.moto{
+  color:#efeaea;
+  background-color:#820d28;
+  position:absolute;
+  z-index:1;
+  top:40%;
+  left:37%;
+}
+ul {
+ list-style-type: none;
+ }
