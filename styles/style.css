@@ -1,3 +1,86 @@
+
+/* *{
+  border:solid red .05em;
+/*   position:abslute;
+/*   display:inline; */
+/*main{*/
+/*   margin:0 5%;*/
+/*    background-color:rgba(250,250,250,.7);*/
+/*    padding:1%;*/
+   /*margin-bottom: 10em;*/
+
+/*body{*/
+/*  margin:8%;*/
+/*  width:100%;*/
+/*  min-height: 100vh;*/
+/*  padding:0;*/
+/*  position: relative;*/
+/*}*/
+
+/*h1{*/
+/*  margin:0;*/
+/*  text-align:center;*/
+/*  background-color:#333;*/
+/*  color:white;*/
+/*  position:fixed;*/
+/*  width:100%;*/
+/*  top:0;*/
+  /*padding:2%;*/
+/*}*/
+
+/*div{*/
+/*  text-align:center;*/
+  /*border:solid;*/
+/*  width:100%;*/
+ 
+/*}*/
+/*.johnthan,*/
+/*.josh{*/
+/*  position:absolute;*/
+/*  left:50%;*/
+/*}*/
+/*.keala,*/
+/*.sean{*/
+/*  position:absolute;*/
+/*  right:50%;*/
+/*}*/
+/*.johnthan{*/
+/*  color:black;*/
+/*  background-color:yellow;*/
+/*  top:25%;*/
+/*  width:40%;*/
+/*}*/
+/*.keala{*/
+/*  color:pink;*/
+/*  background-color:limegreen;*/
+/*    top:25%;*/
+/*    width:40%;*/
+/*}*/
+/*.josh{*/
+/*  color:orange;*/
+/*  background-color:blue;*/
+/*  top:65%;*/
+/*  width:40%;*/
+/*}*/
+/*.sean{*/
+/*  color:purple;*/
+/*  background-color:orange;*/
+/*  top:65%;*/
+/*  width:40%;*/
+/*}*/
+/*.moto{*/
+/*  color:#efeaea;*/
+/*  background-color:#820d28;*/
+/*  position:absolute;*/
+/*  z-index:1;*/
+/*  top:40%;*/
+/*  left:37%;*/
+/*}*/
+.container{
+  position:relative; 
+  width: 25%;
+  margin:0 auto;
+}
 @import url('https://fonts.googleapis.com/css?family=Galada');
 
 h1 {
@@ -136,4 +219,3 @@ div {
   top: 40%;
   left: 37%;
 }
-
