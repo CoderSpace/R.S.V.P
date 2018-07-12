@@ -1,3 +1,38 @@
+
+footer {
+  background-color: aquamarine;
+  border-top: solid 3px gold;
+  padding: 1.895%;
+  display: flex;
+  display: block;
+  position: fixed;
+  clear: both;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 100%;
+  bottom: 0%;
+}
+a:link {
+  text-decoration: none;
+}
+.navbar {
+  list-style-type: none;
+  background: aquamarine;
+  padding: 3%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top:0%;
+  margin-top:0%;
+}
+
+.nav-item a{
+  color: pink;
+  font-family: Lobster;
+  font-size: 125%;
+}
+li{
+    color:gold;
 /* *{
   border:solid red .05em;
 /*   position:abslute;
