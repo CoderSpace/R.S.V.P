@@ -1,33 +1,56 @@
 
-/* *{
-  border:solid red .05em;
-/*   position:abslute;
-/*   display:inline; */
-/*main{*/
-/*   margin:0 5%;*/
-/*    background-color:rgba(250,250,250,.7);*/
-/*    padding:1%;*/
-   /*margin-bottom: 10em;*/
 
-/*body{*/
-/*  margin:8%;*/
-/*  width:100%;*/
-/*  min-height: 100vh;*/
-/*  padding:0;*/
-/*  position: relative;*/
-/*}*/
-
-/*h1{*/
-/*  margin:0;*/
-/*  text-align:center;*/
-/*  background-color:#333;*/
-/*  color:white;*/
-/*  position:fixed;*/
-/*  width:100%;*/
-/*  top:0;*/
-  /*padding:2%;*/
-/*}*/
-
+ jonathan
+div{
+  text-align:center;
+  border:solid;
+  width:25%;
+  border-color:blue;
+ 
+}
+.johnthan,
+.josh{
+  position:absolute;
+  left:15%;
+}
+.keala,
+.sean{
+  position:absolute;
+  right:15%;
+}
+.johnthan{
+  color:black;
+  background-color:yellow;
+  top:20%;
+  
+}
+.keala{
+  color:pink;
+  background-color:limegreen;
+    top:20%;
+}
+.josh{
+  color:yellow;
+  background-color:darkblue;
+  top:65%;
+}
+.sean{
+  color:purple;
+  background-color:orange;
+  top:65%;
+}
+.moto{
+  color:#efeaea;
+  background-color:#820d28;
+  position:absolute;
+  z-index:1;
+  top:40%;
+  left:37%;
+}
+ul {
+ list-style-type: none;
+ }
+=======
 /*div{*/
 /*  text-align:center;*/
   /*border:solid;*/
