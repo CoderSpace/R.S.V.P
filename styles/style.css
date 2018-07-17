@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Galada');
 
  jonathan
 div{
@@ -50,7 +50,6 @@ div{
 ul {
  list-style-type: none;
  }
-=======
 /*div{*/
 /*  text-align:center;*/
   /*border:solid;*/
@@ -104,8 +103,6 @@ ul {
   width: 25%;
   margin:0 auto;
 }
-@import url('https://fonts.googleapis.com/css?family=Galada');
-
 h1 {
   margin: 0;
   text-align: center;
@@ -181,7 +178,7 @@ ul {
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 0%;
   background-image: url("../images/tigerboi.jpg") ;
   background-size:cover;
 }
@@ -212,14 +209,14 @@ div {
 .johnthan {
   color: aquamarine;
   background-color: black;
-  top: 20%;
+  top: 25%;
 
 }
 
 .keala {
   color: aquamarine;
   background-color: black;
-  top: 20%;
+  top: 25%;
 }
 
 .josh {
@@ -242,3 +239,53 @@ div {
   top: 40%;
   left: 37%;
 }
+/*Keala's Navbar*/
+.navbar {
+  background-color:#EFC002;
+  list-style-type:none;
+  display:flex;
+  justify-content:space-around;
+  top:0%;
+  padding: 3.25%;
+  width: 100%;
+  position: absolute;
+  margin-top: 0%;
+  flex-wrap:wrap;
+  align-items:center;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 145%;
+}
+.icon{
+ display:none; 
+}
+.nav button{
+  background:none;
+  color:white;
+  border:none;
+  font-size:1em;
+  padding:0%;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width:600px){
+  ul.nav li:not(:first-child){
+    display:none;
+  }
+
+ul.navbar{
+  flex-direction:column;
+  }
+  ul.nav li.icon{
+    display:block;
+    position: fixed;
+    right:0;
+  }
+}
+.nav.responsive li{
+  display:block;
+}
+/*End of Keala's Navbar*/
