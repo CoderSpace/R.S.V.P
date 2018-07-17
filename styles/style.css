@@ -1,4 +1,12 @@
 
+jonathan div {
+  text-align: center;
+  border: solid;
+  width: 25%;
+  border-color: blue;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Galada');
 
 /* .pictures,.jonathan*/
 /*div{*/
@@ -6,101 +14,153 @@
 /*  border:solid;*/
 /*  width:25%;*/
 /*  border-color:blue;*/
- 
-/*}*/
-/*.pictures,.johnthan,*/
-/*.pictures,.josh{*/
-/*  position:absolute;*/
-/*  left:15%;*/
-/*}*/
-/*.pictures,.keala,*/
-/*sean{*/
-/*  position:absolute;*/
-/*  right:15%;*/
-/*}*/
-/*.pictures,.johnthan{*/
-/*  color:black;*/
-/*  background-color:yellow;*/
-/*  top:20%;*/
+
+.johnthan,
+.josh {
+  left: 15%;
+}
+
+.josh{
+  left:15%;
+
+}
+
+.keala,
+.sean {
+  right: 15%;
+}
+
+.johnthan {
+  color: black;
+  background-color: yellow;
+  top: 20%;
+
+}
+
+.keala {
+  color: pink;
+  background-color: limegreen;
+  top: 20%;
+}
+
+.josh {
+  color: yellow;
+  background-color: darkblue;
+  top: 65%;
+}
+
+.sean {
+  color: purple;
+  background-color: orange;
+  top: 65%;
+}
+.sean{
+  right:15%;
+}
+.johnthan{
+  color:black;
+  background-color:yellow;
+  top:20%;
   
-/*}*/
-/*.pictures,.keala{*/
-/*  color:pink;*/
-/*  background-color:limegreen;*/
-/*    top:20%;*/
-/*}*/
-/*.pictures,.josh{*/
-/*  color:yellow;*/
-/*  background-color:darkblue;*/
-/*  top:65%;*/
-/*}*/
-/*.pictures,.sean{*/
-/*  color:purple;*/
-/*  background-color:orange;*/
-/*  top:65%;*/
-/*}*/
-/*.pictures,.moto{*/
-/*  color:#efeaea;*/
-/*  background-color:#820d28;*/
-/*  position:absolute;*/
-/*  z-index:1;*/
-/*  top:40%;*/
-/*  left:37%;*/
-/*}*/
+}
+.keala{
+  color:pink;
+  background-color:limegreen;
+    top:20%;
+}
+.josh{
+  color:yellow;
+  background-color:darkblue;
+  top:65%;
+}
+.sean{
+  color:purple;
+  background-color:orange;
+  top:65%;
+}
+.moto{
+  color:#efeaea;
+  background-color:#820d28;
+  z-index:1;
+  top:40%;
+  left:37%;
+
+}
+
+.moto {
+  color: #efeaea;
+  background-color: #820d28;
+  z-index: 1;
+  top: 40%;
+  left: 37%;
+}
+
 ul {
- list-style-type: none;
- }
 
-/*div{*/
-/*  text-align:center;*/
-  /*border:solid;*/
-/*  width:100%;*/
- 
-/*}*/
-/*.johnthan,*/
-/*.josh{*/
-/*  position:absolute;*/
-/*  left:50%;*/
-/*}*/
-/*.keala,*/
-/*.sean{*/
-/*  position:absolute;*/
-/*  right:50%;*/
-/*}*/
-/*.johnthan{*/
-/*  color:black;*/
-/*  background-color:yellow;*/
-/*  top:25%;*/
-/*  width:40%;*/
-/*}*/
-/*.keala{*/
-/*  color:pink;*/
-/*  background-color:limegreen;*/
-/*    top:25%;*/
-/*    width:40%;*/
-/*}*/
-/*.josh{*/
-/*  color:orange;*/
-/*  background-color:blue;*/
-/*  top:65%;*/
-/*  width:40%;*/
-/*}*/
-/*.sean{*/
-/*  color:purple;*/
-/*  background-color:orange;*/
-/*  top:65%;*/
-/*  width:40%;*/
-/*}*/
-/*.moto{*/
-/*  color:#efeaea;*/
-/*  background-color:#820d28;*/
-/*  position:absolute;*/
-/*  z-index:1;*/
-/*  top:40%;*/
-/*  left:37%;*/
-/*}*/
+  list-style-type: none;
+}
 
 
+.container {
+  position: relative;
+  width: 25%;
+  margin: 0 auto;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Galada');
+
+
+h1 {
+  margin: 0;
+  text-align: center;
+  background-color: #333;
+  color: aquamarine;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 2%;
+  font-size: 3em;
+  font-family: 'Galada', cursive;
+}
+
+
+.container .about {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.overlay {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 55, 73, .7);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.heros {
+  width: 100%;
+}
 img{
   height: 150%;
 }
@@ -111,11 +171,13 @@ ul {
 }
 
 body {
+  position: relative;
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 0%;
   background-image: url("../images/tigerboi.jpg") ;
   background-size:cover;
+  min-height:100vh;
 }
 
 
@@ -129,14 +191,12 @@ body {
 
 .johnthan,
 .josh {
-  position: absolute;
   left: 15%;
   text-align: center;
 }
 
 .keala,
 .sean {
-  position: absolute;
   right: 15%;
   text-align: center;
 }
@@ -144,14 +204,14 @@ body {
 .johnthan {
   color: aquamarine;
   background-color: black;
-  top: 20%;
+  top: 25%;
 
 }
 
 .keala {
   color: aquamarine;
   background-color: black;
-  top: 20%;
+  top: 25%;
 }
 
 .josh {
@@ -253,3 +313,70 @@ div{
     flex-wrap: wrap;
 }
 /*end of picture.html*/
+/*Keala's Navbar*/
+.navbar {
+  background-color:#EFC002;
+  list-style-type:none;
+  display:flex;
+  justify-content:space-around;
+  top:0%;
+  padding:0;
+  min-height:3em;
+  width: 100%;
+  position: absolute;
+  margin-top: 0%;
+  flex-wrap:wrap;
+  align-items:center;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 145%;
+}
+.icon{
+ display:none; 
+}
+.navbar button{
+  background:none;
+  color:white;
+  border:none;
+  font-size:1em;
+  padding:0%;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width:600px){
+  ul.navbar li:not(:first-child){
+    display:none;
+  }
+
+ul.navbar{
+  flex-direction:column;
+  }
+  ul.navbar li.icon{
+    display:block;
+    position: absolute;
+    right:0;
+  }
+
+ul.navbar.responsive li{
+  display:block;
+  }
+}
+/*End of Keala's Navbar*/
+/*Keala's footer*/
+footer{
+  background-color:#EFC002;
+  border-top: solid 3px gray;
+  padding: 0;
+  height:3em;
+  display: flex;
+  position:relative;
+  width: 100%;
+  clear: both;
+  bottom:0; 
+  align-items: flex-end;
+  justify-content: space-around;
+}
+/*End of Keala's footer*/
