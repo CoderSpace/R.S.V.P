@@ -272,7 +272,7 @@ a{
   justify-content: center;
 }
 @media screen and (max-width:600px){
-  ul.nav li:not(:first-child){
+  ul.navbar li:not(:first-child){
     display:none;
   }
 
