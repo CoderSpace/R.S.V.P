@@ -4,22 +4,21 @@ jonathan div {
   border: solid;
   width: 25%;
   border-color: blue;
-
+}
 
 @import url('https://fonts.googleapis.com/css?family=Galada');
 
- jonathan
-div{
-  text-align:center;
-  border:solid;
-  width:25%;
-  border-color:blue;
- 
-}
+/* .pictures,.jonathan*/
+/*div{*/
+/*  text-align:center;*/
+/*  border:solid;*/
+/*  width:25%;*/
+/*  border-color:blue;*/
 
 .johnthan,
 .josh {
   left: 15%;
+}
 
 .josh{
   left:15%;
@@ -54,7 +53,7 @@ div{
   color: purple;
   background-color: orange;
   top: 65%;
-
+}
 .sean{
   right:15%;
 }
@@ -101,100 +100,6 @@ ul {
   list-style-type: none;
 }
 
-
-/*div{*/
-
-/*  text-align:center;*/
-
-/*border:solid;*/
-
-/*  width:100%;*/
-
-/*}*/
-
-/*.johnthan,*/
-
-/*.josh{*/
-
-/*  position:absolute;*/
-
-/*  left:50%;*/
-
-/*}*/
-
-/*.keala,*/
-
-/*.sean{*/
-
-/*  position:absolute;*/
-
-/*  right:50%;*/
-
-/*}*/
-
-/*.johnthan{*/
-
-/*  color:black;*/
-
-/*  background-color:yellow;*/
-
-/*  top:25%;*/
-
-/*  width:40%;*/
-
-/*}*/
-
-/*.keala{*/
-
-/*  color:pink;*/
-
-/*  background-color:limegreen;*/
-
-/*    top:25%;*/
-
-/*    width:40%;*/
-
-/*}*/
-
-/*.josh{*/
-
-/*  color:orange;*/
-
-/*  background-color:blue;*/
-
-/*  top:65%;*/
-
-/*  width:40%;*/
-
-/*}*/
-
-/*.sean{*/
-
-/*  color:purple;*/
-
-/*  background-color:orange;*/
-
-/*  top:65%;*/
-
-/*  width:40%;*/
-
-/*}*/
-
-/*.moto{*/
-
-/*  color:#efeaea;*/
-
-/*  background-color:#820d28;*/
-
-/*  position:absolute;*/
-
-/*  z-index:1;*/
-
-/*  top:40%;*/
-
-/*  left:37%;*/
-
-/*}*/
 
 .container {
   position: relative;
@@ -255,22 +160,10 @@ h1 {
 
 .heros {
   width: 100%;
-
 }
-
-.text2 {
-  white-space: nowrap;
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+img{
+  height: 150%;
 }
-
-.homepage {}
 
 ul {
   list-style: none;
@@ -288,7 +181,7 @@ body {
 }
 
 
-div {
+.index.html,.div {
   text-align: left;
   border: solid;
   width: 25%;
@@ -341,6 +234,85 @@ div {
   top: 40%;
   left: 37%;
 }
+
+
+/*pictures.html hover effect*/
+.container{
+  position:relative; 
+  width: 25%;
+  margin:0 auto;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  background-color: #333;
+  color: aquamarine;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 2%;
+  font-size:3em;
+  font-family: 'Galada', cursive;
+}
+
+
+.container .about {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 55, 73, .7);
+  overflow: hidden;
+  width:0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.heros {
+  width: 100%;
+
+}
+
+.text2 {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+div{
+  display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/*end of picture.html*/
 /*Keala's Navbar*/
 .navbar {
   background-color:#EFC002;
@@ -387,9 +359,10 @@ ul.navbar{
     position: absolute;
     right:0;
   }
-}
+
 ul.navbar.responsive li{
   display:block;
+  }
 }
 /*End of Keala's Navbar*/
 /*Keala's footer*/
