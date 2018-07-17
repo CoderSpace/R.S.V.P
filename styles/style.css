@@ -101,7 +101,9 @@ ul {
 /*}*/
 
 
-
+img{
+  height: 150%;
+}
 
 ul {
   list-style: none;
@@ -208,7 +210,7 @@ h1 {
   right: 0;
   background-color: rgba(0, 55, 73, .7);
   overflow: hidden;
-  width: 0;
+  width:0;
   height: 100%;
   transition: .5s ease;
 }
@@ -244,5 +246,10 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+div{
+  display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 /*end of picture.html*/
