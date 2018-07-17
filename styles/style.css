@@ -10,12 +10,10 @@ div{
 }
 .johnthan,
 .josh{
-  position:absolute;
   left:15%;
 }
 .keala,
 .sean{
-  position:absolute;
   right:15%;
 }
 .johnthan{
@@ -124,7 +122,6 @@ h1 {
 }
 
 .overlay {
-  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -176,11 +173,13 @@ ul {
 }
 
 body {
+  position: relative;
   width: 100%;
   height: 100%;
   margin: 0%;
   background-image: url("../images/tigerboi.jpg") ;
   background-size:cover;
+  min-height:100vh;
 }
 
 
@@ -194,14 +193,12 @@ div {
 
 .johnthan,
 .josh {
-  position: absolute;
   left: 15%;
   text-align: center;
 }
 
 .keala,
 .sean {
-  position: absolute;
   right: 15%;
   text-align: center;
 }
@@ -246,7 +243,8 @@ div {
   display:flex;
   justify-content:space-around;
   top:0%;
-  padding: 3.25%;
+  padding:0;
+  min-height:3em;
   width: 100%;
   position: absolute;
   margin-top: 0%;
@@ -262,7 +260,7 @@ a{
 .icon{
  display:none; 
 }
-.nav button{
+.navbar button{
   background:none;
   color:white;
   border:none;
@@ -279,13 +277,28 @@ a{
 ul.navbar{
   flex-direction:column;
   }
-  ul.nav li.icon{
+  ul.navbar li.icon{
     display:block;
-    position: fixed;
+    position: absolute;
     right:0;
   }
 }
-.nav.responsive li{
+ul.navbar.responsive li{
   display:block;
 }
 /*End of Keala's Navbar*/
+/*Keala's footer*/
+footer{
+  background-color:#EFC002;
+  border-top: solid 3px gray;
+  padding: 0;
+  height:3em;
+  display: flex;
+  position:relative;
+  width: 100%;
+  clear: both;
+  bottom:0; 
+  align-items: flex-end;
+  justify-content: space-around;
+}
+/*End of Keala's footer*/
