@@ -1,56 +1,56 @@
 
 
- jonathan
-div{
-  text-align:center;
-  border:solid;
-  width:25%;
-  border-color:blue;
+/* .pictures,.jonathan*/
+/*div{*/
+/*  text-align:center;*/
+/*  border:solid;*/
+/*  width:25%;*/
+/*  border-color:blue;*/
  
-}
-.johnthan,
-.josh{
-  position:absolute;
-  left:15%;
-}
-.keala,
-.sean{
-  position:absolute;
-  right:15%;
-}
-.johnthan{
-  color:black;
-  background-color:yellow;
-  top:20%;
+/*}*/
+/*.pictures,.johnthan,*/
+/*.pictures,.josh{*/
+/*  position:absolute;*/
+/*  left:15%;*/
+/*}*/
+/*.pictures,.keala,*/
+/*sean{*/
+/*  position:absolute;*/
+/*  right:15%;*/
+/*}*/
+/*.pictures,.johnthan{*/
+/*  color:black;*/
+/*  background-color:yellow;*/
+/*  top:20%;*/
   
-}
-.keala{
-  color:pink;
-  background-color:limegreen;
-    top:20%;
-}
-.josh{
-  color:yellow;
-  background-color:darkblue;
-  top:65%;
-}
-.sean{
-  color:purple;
-  background-color:orange;
-  top:65%;
-}
-.moto{
-  color:#efeaea;
-  background-color:#820d28;
-  position:absolute;
-  z-index:1;
-  top:40%;
-  left:37%;
-}
+/*}*/
+/*.pictures,.keala{*/
+/*  color:pink;*/
+/*  background-color:limegreen;*/
+/*    top:20%;*/
+/*}*/
+/*.pictures,.josh{*/
+/*  color:yellow;*/
+/*  background-color:darkblue;*/
+/*  top:65%;*/
+/*}*/
+/*.pictures,.sean{*/
+/*  color:purple;*/
+/*  background-color:orange;*/
+/*  top:65%;*/
+/*}*/
+/*.pictures,.moto{*/
+/*  color:#efeaea;*/
+/*  background-color:#820d28;*/
+/*  position:absolute;*/
+/*  z-index:1;*/
+/*  top:40%;*/
+/*  left:37%;*/
+/*}*/
 ul {
  list-style-type: none;
  }
-=======
+
 /*div{*/
 /*  text-align:center;*/
   /*border:solid;*/
@@ -99,12 +99,87 @@ ul {
 /*  top:40%;*/
 /*  left:37%;*/
 /*}*/
+
+
+
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url("../images/tigerboi.jpg") ;
+  background-size:cover;
+}
+
+
+.index.html,.div {
+  text-align: left;
+  border: solid;
+  width: 25%;
+  font-size: 1.8em;
+  font-family: 'Galada', cursive;
+}
+
+.johnthan,
+.josh {
+  position: absolute;
+  left: 15%;
+  text-align: center;
+}
+
+.keala,
+.sean {
+  position: absolute;
+  right: 15%;
+  text-align: center;
+}
+
+.johnthan {
+  color: aquamarine;
+  background-color: black;
+  top: 20%;
+
+}
+
+.keala {
+  color: aquamarine;
+  background-color: black;
+  top: 20%;
+}
+
+.josh {
+  color: aquamarine;
+  background-color: black;
+  top: 65%;
+}
+
+.sean {
+  color: aquamarine;
+  background-color: black;
+  top: 65%;
+}
+
+.moto {
+  color: #efeaea;
+  background-color: #820d28;
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  left: 37%;
+}
+
+
+/*pictures.html hover effect*/
 .container{
   position:relative; 
   width: 25%;
   margin:0 auto;
 }
-@import url('https://fonts.googleapis.com/css?family=Galada');
 
 h1 {
   margin: 0;
@@ -170,75 +245,4 @@ h1 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-
-.homepage {}
-
-ul {
-  list-style: none;
-  text-align: left;
-}
-
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  background-image: url("../images/tigerboi.jpg") ;
-  background-size:cover;
-}
-
-
-div {
-  text-align: left;
-  border: solid;
-  width: 25%;
-  font-size: 1.8em;
-  font-family: 'Galada', cursive;
-}
-
-.johnthan,
-.josh {
-  position: absolute;
-  left: 15%;
-  text-align: center;
-}
-
-.keala,
-.sean {
-  position: absolute;
-  right: 15%;
-  text-align: center;
-}
-
-.johnthan {
-  color: aquamarine;
-  background-color: black;
-  top: 20%;
-
-}
-
-.keala {
-  color: aquamarine;
-  background-color: black;
-  top: 20%;
-}
-
-.josh {
-  color: aquamarine;
-  background-color: black;
-  top: 65%;
-}
-
-.sean {
-  color: aquamarine;
-  background-color: black;
-  top: 65%;
-}
-
-.moto {
-  color: #efeaea;
-  background-color: #820d28;
-  position: absolute;
-  z-index: 1;
-  top: 40%;
-  left: 37%;
-}
+/*end of picture.html*/
