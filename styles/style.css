@@ -1,113 +1,4 @@
 
-jonathan div {
-  text-align: center;
-  border: solid;
-  width: 25%;
-  border-color: blue;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Galada');
-
-/* .pictures,.jonathan*/
-/*div{*/
-/*  text-align:center;*/
-/*  border:solid;*/
-/*  width:25%;*/
-/*  border-color:blue;*/
-
-.johnthan,
-.josh {
-  left: 15%;
-}
-
-.josh{
-  left:15%;
-
-}
-
-.keala,
-.sean {
-  right: 15%;
-}
-
-.johnthan {
-  color: black;
-  background-color: yellow;
-  top: 20%;
-
-}
-
-.keala {
-  color: pink;
-  background-color: limegreen;
-  top: 20%;
-}
-
-.josh {
-  color: yellow;
-  background-color: darkblue;
-  top: 65%;
-}
-
-.sean {
-  color: purple;
-  background-color: orange;
-  top: 65%;
-}
-.sean{
-  right:15%;
-}
-.johnthan{
-  color:black;
-  background-color:yellow;
-  top:20%;
-  
-}
-.keala{
-  color:pink;
-  background-color:limegreen;
-    top:20%;
-}
-.josh{
-  color:yellow;
-  background-color:darkblue;
-  top:65%;
-}
-.sean{
-  color:purple;
-  background-color:orange;
-  top:65%;
-}
-.moto{
-  color:#efeaea;
-  background-color:#820d28;
-  z-index:1;
-  top:40%;
-  left:37%;
-
-}
-
-.moto {
-  color: #efeaea;
-  background-color: #820d28;
-  z-index: 1;
-  top: 40%;
-  left: 37%;
-}
-
-ul {
-
-  list-style-type: none;
-}
-
-
-.container {
-  position: relative;
-  width: 25%;
-  margin: 0 auto;
-}
-
-
 @import url('https://fonts.googleapis.com/css?family=Galada');
 
 
@@ -130,7 +21,7 @@ h1 {
   width: 100%;
   margin: 0 auto;
 }
-
+ 
 .overlay {
   bottom: 0;
   left: 0;
@@ -155,7 +46,7 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  font-family: 'Galada', cursive;
 }
 
 .heros {
@@ -199,25 +90,24 @@ body {
 .sean {
   right: 15%;
   text-align: center;
+  right:10%;
 }
 
 .johnthan {
   color: aquamarine;
   background-color: black;
-  top: 25%;
-
 }
 
 .keala {
   color: aquamarine;
   background-color: black;
-  top: 25%;
 }
 
 .josh {
   color: aquamarine;
   background-color: black;
   top: 65%;
+  left:10%;
 }
 
 .sean {
@@ -235,6 +125,14 @@ body {
   left: 37%;
 }
 
+.qoute{
+  color:aquamarine;
+  background-color: black;
+  text-align: center;
+  
+  left: 37%;
+  top: 50%;
+}
 
 /*pictures.html hover effect*/
 .container{
