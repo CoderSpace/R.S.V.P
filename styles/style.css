@@ -1,109 +1,162 @@
+jonathan div {
+  text-align: center;
+  border: solid;
+  width: 25%;
+  border-color: blue;
 
-
- jonathan
-div{
-  text-align:center;
-  border:solid;
-  width:25%;
-  border-color:blue;
- 
 }
+
 .johnthan,
-.josh{
-  position:absolute;
-  left:15%;
+.josh {
+  position: absolute;
+  left: 15%;
 }
+
 .keala,
-.sean{
-  position:absolute;
-  right:15%;
+.sean {
+  position: absolute;
+  right: 15%;
 }
-.johnthan{
-  color:black;
-  background-color:yellow;
-  top:20%;
-  
+
+.johnthan {
+  color: black;
+  background-color: yellow;
+  top: 20%;
+
 }
-.keala{
-  color:pink;
-  background-color:limegreen;
-    top:20%;
+
+.keala {
+  color: pink;
+  background-color: limegreen;
+  top: 20%;
 }
-.josh{
-  color:yellow;
-  background-color:darkblue;
-  top:65%;
+
+.josh {
+  color: yellow;
+  background-color: darkblue;
+  top: 65%;
 }
-.sean{
-  color:purple;
-  background-color:orange;
-  top:65%;
+
+.sean {
+  color: purple;
+  background-color: orange;
+  top: 65%;
 }
-.moto{
-  color:#efeaea;
-  background-color:#820d28;
-  position:absolute;
-  z-index:1;
-  top:40%;
-  left:37%;
+
+.moto {
+  color: #efeaea;
+  background-color: #820d28;
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  left: 37%;
 }
+
 ul {
- list-style-type: none;
- }
+  list-style-type: none;
+}
+
 =======
 /*div{*/
+
 /*  text-align:center;*/
-  /*border:solid;*/
+
+/*border:solid;*/
+
 /*  width:100%;*/
- 
+
 /*}*/
+
 /*.johnthan,*/
+
 /*.josh{*/
+
 /*  position:absolute;*/
+
 /*  left:50%;*/
+
 /*}*/
+
 /*.keala,*/
+
 /*.sean{*/
+
 /*  position:absolute;*/
+
 /*  right:50%;*/
+
 /*}*/
+
 /*.johnthan{*/
+
 /*  color:black;*/
+
 /*  background-color:yellow;*/
+
 /*  top:25%;*/
+
 /*  width:40%;*/
+
 /*}*/
+
 /*.keala{*/
+
 /*  color:pink;*/
+
 /*  background-color:limegreen;*/
+
 /*    top:25%;*/
+
 /*    width:40%;*/
+
 /*}*/
+
 /*.josh{*/
+
 /*  color:orange;*/
+
 /*  background-color:blue;*/
+
 /*  top:65%;*/
+
 /*  width:40%;*/
+
 /*}*/
+
 /*.sean{*/
+
 /*  color:purple;*/
+
 /*  background-color:orange;*/
+
 /*  top:65%;*/
+
 /*  width:40%;*/
+
 /*}*/
+
 /*.moto{*/
+
 /*  color:#efeaea;*/
+
 /*  background-color:#820d28;*/
+
 /*  position:absolute;*/
+
 /*  z-index:1;*/
+
 /*  top:40%;*/
+
 /*  left:37%;*/
+
 /*}*/
-.container{
-  position:relative; 
+
+.container {
+  position: relative;
   width: 25%;
-  margin:0 auto;
+  margin: 0 auto;
 }
+
 @import url('https://fonts.googleapis.com/css?family=Galada');
 
 h1 {
@@ -115,7 +168,7 @@ h1 {
   width: 100%;
   top: 0;
   padding: 2%;
-  font-size:3em;
+  font-size: 3em;
   font-family: 'Galada', cursive;
 }
 
@@ -182,8 +235,8 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  background-image: url("../images/tigerboi.jpg") ;
-  background-size:cover;
+  background-image: url("../images/tigerboi.jpg");
+  background-size: cover;
 }
 
 
