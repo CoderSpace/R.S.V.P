@@ -1,117 +1,8 @@
 
-jonathan div {
-  text-align: center;
-  border: solid;
-  width: 25%;
-  border-color: blue;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Galada');
 
-/* .pictures,.jonathan*/
-/*div{*/
-/*  text-align:center;*/
-/*  border:solid;*/
-/*  width:25%;*/
-/*  border-color:blue;*/
-
-.johnthan,
-.josh {
-  left: 15%;
-}
-
-.josh{
-  left:15%;
-
-}
-
-.keala,
-.sean {
-  right: 15%;
-}
-
-.johnthan {
-  color: black;
-  background-color: yellow;
-  top: 20%;
-
-}
-
-.keala {
-  color: pink;
-  background-color: limegreen;
-  top: 20%;
-}
-
-.josh {
-  color: yellow;
-  background-color: darkblue;
-  top: 65%;
-}
-
-.sean {
-  color: purple;
-  background-color: orange;
-  top: 65%;
-}
-.sean{
-  right:15%;
-}
-.johnthan{
-  color:black;
-  background-color:yellow;
-  top:20%;
-  
-}
-.keala{
-  color:pink;
-  background-color:limegreen;
-    top:20%;
-}
-.josh{
-  color:yellow;
-  background-color:darkblue;
-  top:65%;
-}
-.sean{
-  color:purple;
-  background-color:orange;
-  top:65%;
-}
-.moto{
-  color:#efeaea;
-  background-color:#820d28;
-  z-index:1;
-  top:40%;
-  left:37%;
-
-}
-
-.moto {
-  color: #efeaea;
-  background-color: #820d28;
-  z-index: 1;
-  top: 40%;
-  left: 37%;
-}
-
-ul {
-
-  list-style-type: none;
-}
-
-
-.container {
-  position: relative;
-  width: 25%;
-  margin: 0 auto;
-}
-
-
-@import url('https://fonts.googleapis.com/css?family=Galada');
-
-
-h1 {
+/*index.html styles*/
+.home h1 {
   margin: 0;
   text-align: center;
   background-color: #333;
@@ -124,106 +15,82 @@ h1 {
   font-family: 'Galada', cursive;
 }
 
-
-.container .about {
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
+.home h2 {
+  align-items: center;
 }
 
-.overlay {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 55, 73, .7);
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease;
+.home main{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-content:space-around;
 }
 
-.container:hover .overlay {
-  width: 100%;
+.home li {
+  font-size: .8em;
 }
 
-.text {
-  white-space: nowrap;
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.heros {
-  width: 100%;
-}
-img{
-  height: 150%;
-}
-
-ul {
+.home ul {
   list-style: none;
   text-align: left;
 }
-
+/*duplicate body styles may need to be removed depending on merge*/
 body {
   position: relative;
   width: 100%;
-  height: 100%;
-  margin: 0%;
-  background-image: url("../images/tigerboi.jpg") ;
-  background-size:cover;
+  margin: 0;
+  background-image: url("../images/tigerboi.jpg");
+  background-size: cover;
+  font-family: 'Galada', cursive;
+  background-repeat: no-repeat;
   min-height:100vh;
 }
 
 
-.index.html,.div {
-  text-align: left;
-  border: solid;
-  width: 25%;
+.home div {
   font-size: 1.8em;
   font-family: 'Galada', cursive;
+  margin: .5em;
 }
 
 .johnthan,
 .josh {
-  left: 15%;
-  text-align: center;
+    border: solid;
+
 }
 
 .keala,
 .sean {
-  right: 15%;
-  text-align: center;
+    border: solid;
+
 }
 
 .johnthan {
   color: aquamarine;
   background-color: black;
-  top: 25%;
-
+  width:40%;
+  order:6;
 }
 
 .keala {
   color: aquamarine;
   background-color: black;
-  top: 25%;
+  width:40%;
+  order:2;
 }
 
 .josh {
   color: aquamarine;
   background-color: black;
-  top: 65%;
+  width:40%;
+  order:1;
 }
 
 .sean {
   color: aquamarine;
   background-color: black;
-  top: 65%;
+  width:40%;
+  order:5;
 }
 
 .moto {
@@ -234,6 +101,31 @@ body {
   top: 40%;
   left: 37%;
 }
+
+.qoute {
+  color: aquamarine;
+  background-color: black;
+  /*display: flex;*/
+  text-align: center;
+  align-items: center;
+  width:80%;
+  order:3;
+  border: solid;
+
+}
+
+.cs-images {
+  width: 100%;
+  order:4;
+  border:none;
+}
+
+.cs-images img{
+  display:block;
+  margin:0 auto;
+  
+}
+/*end of index.html styles*/
 
 
 /*pictures.html hover effect*/
