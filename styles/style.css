@@ -1,8 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Galada');
 
-
-h1 {
+/*index.html styles*/
+.home h1 {
   margin: 0;
   text-align: center;
   background-color: #333;
@@ -15,61 +15,30 @@ h1 {
   font-family: 'Galada', cursive;
 }
 
-
-.container .about {
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
+.home h2 {
+  align-items: center;
 }
 
-.overlay {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 55, 73, .7);
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease;
+.home main{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-content:space-around;
 }
 
-.container:hover .overlay {
-  width: 100%;
-}
-
-.text {
-  white-space: nowrap;
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Galada', cursive;
-}
-
-.heros {
-  width: 100%;
-}
-img{
-  height: 150%;
-}
-
-.homepage {}
-
-li{
+.home li {
   font-size: .8em;
 }
-ul {
+
+.home ul {
   list-style: none;
   text-align: left;
 }
-
+/*duplicate body styles may need to be removed depending on merge*/
 body {
   position: relative;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   margin: 0;
   background-image: url("../images/tigerboi.jpg");
   background-size: cover;
@@ -79,52 +48,50 @@ body {
 }
 
 
-.index.html,.div {
-  text-align: left;
-  border: solid;
-  width: 25%;
+.home div {
   font-size: 1.8em;
   font-family: 'Galada', cursive;
+  margin: .5em;
 }
 
 .johnthan,
 .josh {
+    border: solid;
 
-  left: 15%;
-  text-align: center;
 }
 
 .keala,
 .sean {
-  right: 15%;
-  position: fixed;
-  text-align: center;
+    border: solid;
+
 }
 
 .johnthan {
   color: aquamarine;
   background-color: black;
-
+  width:40%;
+  order:6;
 }
 
 .keala {
   color: aquamarine;
   background-color: black;
-
+  width:40%;
+  order:2;
 }
 
 .josh {
   color: aquamarine;
   background-color: black;
-  top: 65%;
-  left: 10%;
+  width:40%;
+  order:1;
 }
 
 .sean {
   color: aquamarine;
   background-color: black;
-  top: 65%;
-  right:10%;
+  width:40%;
+  order:5;
 }
 
 .moto {
@@ -139,11 +106,27 @@ body {
 .qoute {
   color: aquamarine;
   background-color: black;
-  position: fixed;
+  /*display: flex;*/
   text-align: center;
-  left: 37%;
-  top: 50%;
+  align-items: center;
+  width:80%;
+  order:3;
+  border: solid;
+
 }
+
+.cs-images {
+  width: 100%;
+  order:4;
+  border:none;
+}
+
+.cs-images img{
+  display:block;
+  margin:0 auto;
+  
+}
+/*end of index.html styles*/
 img{
   width:15%;
   left:50%;
