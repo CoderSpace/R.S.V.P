@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Galada|Shrikhand');
 
 jonathan div {
   text-align: center;
@@ -6,7 +7,6 @@ jonathan div {
   border-color: blue;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Galada');
 
 /* .pictures,.jonathan*/
 /*div{*/
@@ -108,7 +108,6 @@ ul {
 }
 
 
-@import url('https://fonts.googleapis.com/css?family=Galada');
 
 
 h1 {
@@ -162,7 +161,7 @@ h1 {
   width: 100%;
 }
 img{
-  height: 150%;
+  height: 100%;
 }
 
 ul {
