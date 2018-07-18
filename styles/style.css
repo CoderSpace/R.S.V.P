@@ -34,7 +34,7 @@
 .heros {
   width: 100%;
 }
-.picture img{
+.pictures img{
   height: 150%;
   width:100%;
 }
@@ -151,7 +151,7 @@ body {
 
 
 /*pictures.html hover effect*/
-.pictures,teamphoto{
+.pictures .teamphoto{
   width:100%;
   height:100%;
 }
@@ -225,7 +225,7 @@ h1 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-.images,div{
+.images {
   display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
