@@ -163,6 +163,7 @@ h1 {
 }
 img{
   height: 150%;
+  width:100%;
 }
 
 ul {
@@ -170,12 +171,12 @@ ul {
   text-align: left;
 }
 
-body {
+.pictures,body {
   position: relative;
   width: 100%;
   height: 100%;
   margin: 0%;
-  background-image: url("../images/tigerboi.jpg") ;
+  background-color:black;
   background-size:cover;
   min-height:100vh;
 }
@@ -237,6 +238,10 @@ body {
 
 
 /*pictures.html hover effect*/
+.pictures,teamphoto{
+  width:100%;
+  height:100%;
+}
 .container{
   position:relative; 
   width: 25%;
@@ -307,7 +312,7 @@ h1 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-div{
+.images,div{
   display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
