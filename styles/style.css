@@ -26,10 +26,12 @@
   align-content:space-around;
 }
 
-
 .home li {
   font-size: 1em;
   text-align: center;
+}
+.navbar li{
+font-size:inherit;
 }
 
 .heros {
