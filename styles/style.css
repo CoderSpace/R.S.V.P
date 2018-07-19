@@ -16,7 +16,7 @@
 }
 
 .home h2 {
-  align-items: center;
+  text-align: center;
 }
 
 .home main{
@@ -28,7 +28,8 @@
 
 
 .home li {
-  font-size: .8em;
+  font-size: 1em;
+  text-align: center;
 }
 
 .heros {
@@ -41,7 +42,7 @@
 
 ul {
   list-style: none;
-  text-align: left;
+  text-align: center;
 }
 
 .pictures{
@@ -98,14 +99,14 @@ body {
   color: aquamarine;
   background-color: black;
   width:40%;
-  order:2;
+  order:3;
 }
 
 .josh {
   color: aquamarine;
   background-color: black;
   width:40%;
-  order:1;
+  order:2;
 }
 
 .sean {
@@ -124,28 +125,27 @@ body {
   left: 37%;
 }
 
-.qoute {
-  color: aquamarine;
-  background-color: black;
+/*.quote {*/
+/*  color: aquamarine;*/
+/*  background-color: black;*/
   /*display: flex;*/
-  text-align: center;
-  align-items: center;
-  width:80%;
-  order:3;
-  border: solid;
+/*  text-align: center;*/
+/*  align-items: center;*/
+/*  width:80%;*/
+/*  order:4;*/
+/*  border: solid;*/
 
-}
+/*}*/
 
 .cs-images {
   width: 100%;
-  order:4;
+  order:1;
   border:none;
 }
 
 .cs-images img{
   display:block;
   margin:0 auto;
-  
 }
 /*end of index.html styles*/
 
@@ -246,6 +246,7 @@ h1 {
   flex-wrap:wrap;
   align-items:center;
   z-index:1;
+  margin-bottom: 3px;
 }
 a{
   text-decoration: none;
@@ -264,6 +265,7 @@ a{
   display: flex;
   justify-content: center;
 }
+
 @media screen and (max-width:600px){
   ul.navbar li:not(:first-child){
     display:none;
@@ -298,3 +300,8 @@ footer{
   justify-content: space-around;
 }
 /*End of Keala's footer*/
+p{
+  text-align: center;
+  color: aquamarine;
+  font-size: 1em;
+}
