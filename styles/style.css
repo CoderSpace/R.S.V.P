@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Galada');
 
 /*index.html styles*/
+main{
+  width:80%;
+  display:block;
+  margin:0 auto;
+  padding-top: 6em;
+}
 .home h1 {
   margin: 0;
   text-align: center;
@@ -66,6 +72,7 @@ body {
   font-family: 'Galada', cursive;
   background-repeat: no-repeat;
   min-height:100vh;
+  padding-bottom: 6em;
 }
 
 
@@ -237,12 +244,12 @@ h1 {
   list-style-type:none;
   display:flex;
   justify-content:space-around;
-  top:0%;
+  top:0;
   padding:0;
   min-height:3em;
   width: 100%;
   position: absolute;
-  margin-top: 0%;
+  margin-top: 0;
   flex-wrap:wrap;
   align-items:center;
   z-index:1;
@@ -275,7 +282,8 @@ ul.navbar{
   ul.navbar li.icon{
     display:block;
     position: absolute;
-    right:0;
+    top:1em;
+    right:2em;
   }
 
 ul.navbar.responsive li{
@@ -294,7 +302,7 @@ footer{
   width: 100%;
   clear: both;
   bottom:0; 
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-around;
 }
 /*End of Keala's footer*/
