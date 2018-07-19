@@ -9,7 +9,8 @@ main{
   margin:0 auto;
   padding-top: 6em;
 }
-.home {
+
+/* .home h1{
   margin: 0;
   text-align: center;
   background-color: #333;
@@ -21,7 +22,7 @@ main{
   font-size: 3em;
   font-family: 'Galada', cursive;
 }
-
+ */
 .home h2 {
   text-align: center;
 }
@@ -171,7 +172,7 @@ body {
   margin:0 auto;
 }
 
-h1 {
+.slideshow-container h1 {
   text-align: center;
   background-color: #333;
   color: aquamarine;
