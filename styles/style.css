@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Galada');
 
 /*index.html styles*/
+
 main{
   width:80%;
   display:block;
   margin:0 auto;
   padding-top: 6em;
 }
-.home h1 {
+.home {
   margin: 0;
   text-align: center;
   background-color: #333;
@@ -171,16 +172,25 @@ body {
 }
 
 h1 {
-  margin: 0;
   text-align: center;
   background-color: #333;
   color: aquamarine;
   position: fixed;
-  width: 100%;
-  top: 0;
+  width: 60%;
+  top: 30%;
+  left: 20%;
+  justify-content: center;
   padding: 2%;
   font-size:3em;
   font-family: 'Galada', cursive;
+}
+
+.video{
+  justify-content: center;
+  top: 30%;
+  left: 20%;
+  display: flex;
+  align-items:center;
 }
 
 
