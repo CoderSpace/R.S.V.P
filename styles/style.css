@@ -3,7 +3,7 @@
 
 /*index.html styles*/
 
-main{
+main h1{
   width:80%;
   display:block;
   margin:0 auto;
@@ -171,7 +171,7 @@ body {
   margin:0 auto;
 }
 
-h1 {
+.h1 {
   text-align: center;
   background-color: #333;
   color: aquamarine;
@@ -181,7 +181,7 @@ h1 {
   left: 20%;
   justify-content: center;
   padding: 2%;
-  font-size:3em;
+  font-size: 3em;
   font-family: 'Galada', cursive;
 }
 
